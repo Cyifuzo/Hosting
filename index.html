@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Foodss</title>
+</head>
+<body style="background-color: pink;">
+    <script defer src="script.js"></script>
+    <div class="topnav">
+        <h2 style="margin-left: 20px;">My Food Recipe</h2>
+        <div class="header-navbar">
+        <a href="#Home">Home</a>
+        <a href="#Food categories">Food categories</a>
+        <a href="#Food list">Food list</a>
+
+        </div>
+        <div class="dropdown">
+            <button>My account</button>
+            <div class="dropdown-content">
+                <a href="#" style="border-radius: 10px 10px;">View account</a>
+                <a href="#" style="border-radius: 10px 10px;">Log out</a>
+            </div>
+        </div>
+    </div>
+    <section id="Home" class="Home-section">
+ <div class="1st raw">
+    <div class="box1">
+        <img src="b1.jpg">
+        <h2 style="margin-left:90px; margin-top: 5px;">Ingredients list</h2>
+        <center>
+        <p style="margin-left: 65px; margin-right: 65px;">This should be detailed and include important information to tell the user how much of each ingredient they should be using.</p>
+    </center>
+    </div>
+    <div class="box2">
+        <img src="b2.jpg">
+        <h2 style="margin-left:130px; margin-top: 5px;">Food list</h2>
+        <center>
+        <p style="margin-left: 65px; margin-right:65px;"> This is typically the name of the food the user will be making when they follow the recipe </p>
+    </center>
+    </div>
+    <div class="box3">
+        <img src="b3.jpg">
+        <h2 style="margin-left:130px; margin-top: 5px;">Procedures</h2>
+        <center>
+        <p style="margin-left: 65px; margin-right:65px;">These are the steps the user should take and are numbered and ordered chronologically in the way they should be done</p>
+    </center>
+    </div>
+</div>
+
+    <div class="box4" >
+
+
+        <img src="b4.jpg" >
+        <h2 style="margin-left:85px; margin-top: 5px;">Breakfast Recipes</h2>
+   
+   
+
+    <button type="submit" class="btn" onclick="openPopup()">vew list</button>
+                            <div id="overlay"></div>
+                            <div class="popup" id="popup">
+                              <div class="content">
+                            
+
+                            <div class="boxp">
+                                <img src="b1.jpg" alt="" >
+                                   <h3>Ingredient list</h3><br>
+                                    <p>anabelle</p>
+                              </div>
+                              <div class="boxp">
+                                <img src="b1.jpg" alt="" >
+                                   <h3>Ingredient list</h3><br>
+                                    <p>anabelle</p>
+                              </div>
+
+                              <div class="boxp">
+                                <img src="b1.jpg" alt="">
+                                   <h3>Ingredient list</h3><br>
+                                    <p>anabelle</p>
+                              </div>
+
+                              <div class="boxp">
+                                <img src="b1.jpg" alt="">
+                                   <h3>Ingredient list</h3><br>
+                                    <p>anabelle</p>
+                              </div>
+
+
+                              </div>
+                              <span type="button" onclick="closePopup()">&times;</span>
+                            </div>  
+
+
+    </div>
+    
+    
+    
+    <div class="box5">
+        <img src="b5.jpg">
+        <h2 style="margin-left:90px; margin-top: 5px;">Lunch Recipes</h2>
+  
+        <button type="submit" class="btn" onclick="openPopup()">vew list</button>
+        <div id="overlay"></div>
+        <div class="popup" id="popup">
+          <div class="content">
+        
+
+        <div class="boxp">
+            <img src="b1.jpg" alt="" >
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+          <div class="boxp">
+            <img src="b1.jpg" alt="" >
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+          <div class="boxp">
+            <img src="b1.jpg" alt="">
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+          <div class="boxp">
+            <img src="b1.jpg" alt="">
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+
+          </div>
+          <span type="button" onclick="closePopup()">&times;</span>
+        </div>  
+
+
+    </div>
+   
+    <div class="box6">
+        <img src="b6.jpg">
+        <h2 style="margin-left:90px; margin-top: 5px;">Lunch Recipes</h2>
+        <button type="submit" class="btn" onclick="openPopup()">vew list</button>
+        <div id="overlay"></div>
+        <div class="popup" id="popup">
+          <div class="content">
+        
+
+        <div class="boxp">
+            <img src="b1.jpg" alt="" >
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+          <div class="boxp">
+            <img src="b1.jpg" alt="" >
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+          <div class="boxp">
+            <img src="b1.jpg" alt="">
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+          <div class="boxp">
+            <img src="b1.jpg" alt="">
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+
+          </div>
+          <span type="button" onclick="closePopup()">&times;</span>
+        </div>  
+
+    </div>
+</div>
+</section>
+<section id="Food categories" class="foodcategory">
+
+<div class="3rd raw">
+    <div class="box7">
+        <img src="b7.jpg">
+        <h2 style="margin-left:90px; margin-top: 5px;">Appetizer Recipes</h2>
+        <button type="submit" class="btn" onclick="openPopup()">vew list</button>
+        <div id="overlay"></div>
+        <div class="popup" id="popup">
+          <div class="content">
+        
+
+        <div class="boxp">
+            <img src="b1.jpg" alt="" >
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+          <div class="boxp">
+            <img src="b1.jpg" alt="" >
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+          <div class="boxp">
+            <img src="b1.jpg" alt="">
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+          <div class="boxp">
+            <img src="b1.jpg" alt="">
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+
+          </div>
+          <span type="button" onclick="closePopup()">&times;</span>
+        </div>  
+
+    </div>
+    <div class="box8">
+        <img src="b8.jpg">
+        <h2 style="margin-left:90px; margin-top: 5px;">Dessert Recipes</h2>
+        <button type="submit" class="btn" onclick="openPopup()">vew list</button>
+        <div id="overlay"></div>
+        <div class="popup" id="popup">
+          <div class="content">
+        
+
+        <div class="boxp">
+            <img src="b1.jpg" alt="" >
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+          <div class="boxp">
+            <img src="b1.jpg" alt="" >
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+          <div class="boxp">
+            <img src="b1.jpg" alt="">
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+          <div class="boxp">
+            <img src="b1.jpg" alt="">
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+
+          </div>
+          <span type="button" onclick="closePopup()">&times;</span>
+        </div>  
+
+    </div>
+    <div class="box9">
+        <img src="b9.jpg">
+        <h2 style="margin-left:90px; margin-top: 5px;">Fast food Recipes</h2>
+        <button type="submit" class="btn" onclick="openPopup()">vew list</button>
+        <div id="overlay"></div>
+        <div class="popup" id="popup">
+          <div class="content">
+        
+
+        <div class="boxp">
+            <img src="b1.jpg" alt="" >
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+          <div class="boxp">
+            <img src="b1.jpg" alt="" >
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+          <div class="boxp">
+            <img src="b1.jpg" alt="">
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+          <div class="boxp">
+            <img src="b1.jpg" alt="">
+               <h3>Ingredient list</h3><br>
+                <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+
+          </div>
+          <span type="button" onclick="closePopup()">&times;</span>
+        </div>  
+
+    </div>
+    </div>
+</section>
+<center>
+    <div class="section">
+        <section id="Food list" class="foodlist">
+            <div class="table">
+             <table style="border-collapse: collapse;" >
+                 <h1 >Food Lists</h1>
+                 <div class="b1">
+                     <button>Add Recipe</button>
+                 </div>
+                 <div class="b2">
+                     <button>Search...</button>
+                 </div>
+                 <tr>
+                     <th>Food ID</th>
+                     <th>Recipe Image</th>
+                     <th>Recipe Name</th>
+                     <th>Category</th>
+                     <th>Action</th>
+                 </tr>   
+                 <tr>
+                     <td>1</td>
+                     <td><img src="b1.jpg" alt="" style="width: 50px;"></td>
+                     <td>French toast</td>
+                     <td>Breakfast</td>
+                     <td><i class="fa-solid fa-list" style="border: gray solid 2px;"></i> <i class="fa-solid fa-pencil" style="border: gray solid 2px;"></i><i class="fa-solid fa-trash" style="border: gray solid 2px;"></i></td>
+                 </tr>
+                 <tr>
+                     <td>2</td>
+                     <td><img src="b1.jpg" alt="" style="width: 50px;"></td>
+                     <td>Croque Madame</td>
+                     <td>Breakfast</td>
+                     <td><i class="fa-solid fa-list" style="border: gray solid 2px;"></i> <i class="fa-solid fa-pencil" style="border: gray solid 2px;"></i><i class="fa-solid fa-trash" style="border: gray solid 2px;"></i></td>
+                 </tr>
+                 <tr>
+                     <td>3</td>
+                     <td><img src="b1.jpg" alt="" style="width: 50px;"></td>
+                     <td>Egg Bhurji</td>
+                     <td>Breakfast</td>
+                     <td><i class="fa-solid fa-list" style="border: gray solid 2px;"></i> <i class="fa-solid fa-pencil" style="border: gray solid 2px;"></i><i class="fa-solid fa-trash" style="border: gray solid 2px;"></i></td>
+                 </tr>
+                 <tr>
+                     <td>4</td>
+                     <td><img src="b1.jpg" alt="" style="width: 50px;"></td>
+                     <td>Eggs Benedict toast</td>
+                     <td>Breakfast</td>
+                     <td><i class="fa-solid fa-list" style="border: gray solid 2px;"></i> <i class="fa-solid fa-pencil" style="border: gray solid 2px;"></i><i class="fa-solid fa-trash" style="border: gray solid 2px;"></i></td>
+                 </tr>
+                 <tr>
+                     <td>5</td>
+                     <td><img src="b1.jpg" alt="" style="width: 50px;"></td>
+                     <td>Cinnamon Pancakes</td>
+                     <td>Breakfast</td>
+                     <td><i class="fa-solid fa-list" style="border: gray solid 2px;"></i> <i class="fa-solid fa-pencil" style="border: gray solid 2px;"></i><i class="fa-solid fa-trash" style="border: gray solid 2px;"></i></td>
+                 </tr>
+                 <tr>
+                     <td>6</td>
+                     <td><img src="b1.jpg" alt="" style="width: 50px;"></td>
+                     <td>Katsu Sando</td>
+                     <td>Lunch</td>
+                     <td><i class="fa-solid fa-list" style="border: gray solid 2px;"></i> <i class="fa-solid fa-pencil" style="border: gray solid 2px;"></i><i class="fa-solid fa-trash" style="border: gray solid 2px;"></i></td>
+                 </tr>
+             </table>
+         </section>
+    </div>
+  <script src="script.js"></script>
+</center>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.js To-Do List</title>
+    <!-- Vue.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body style=" background-color: beige;">
+
+<div id="app">
+    <h2 style="color: rgb(0, 0, 0);">To-Do List</h2>
+    <input type="text" v-model="newTask" @keyup.enter="addTask">
+    <button @click="addTask">Add Task</button>
+    
+    <ul>
+        <li v-for="(task, index) in tasks" :key="index">
+            {{ task }}
+            <button @click="removeTask(index)">close</button>
+        </li>
+    </ul>
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            newTask: '',
+            tasks: []
+        },
+        methods: {
+            addTask() {
+                if (this.newTask.trim() !== '') {
+                    this.tasks.push(this.newTask);
+                    this.newTask = '';
+                }
+            },
+            removeTask(index) {
+                this.tasks.splice(index, 1);
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
